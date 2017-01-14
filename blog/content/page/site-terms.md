@@ -7,4 +7,4 @@ tags = ["tag1", "tag2"]
 title = "My Profile"
 +++
 
-About me page
+Site terms page

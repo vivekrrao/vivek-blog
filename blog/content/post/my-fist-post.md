@@ -1,7 +1,17 @@
 +++
+author = "Vivek Rao"
+tags = [
+  "tag1",
+  "tag2",
+]
+categories = [
+  "cloud",
+  "aws",
+]
 draft = true
-title = "my first post"
-date = "2017-01-12T18:33:58-05:00"
+date = "2017-01-13T16:52:37-05:00"
+title = "Standing on the shoulders of giants"
+description = "description"
 
 +++
 

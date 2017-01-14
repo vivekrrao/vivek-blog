@@ -1,4 +1,4 @@
-baseurl                 = "https://www.example.com/"
+baseurl                 = "https://www.vivekrrao.com/"
 languageCode            = "en-us"
 title                   = "Vivek's Blog"
 theme                   = "hugo-phlat-theme"
@@ -18,15 +18,15 @@ theme                   = "hugo-phlat-theme"
     url                 = "/"
 
 [[menu.header]]
-    name                = "About"
+    name                = "Profile"
     weight              = 3
     url                 = "/about/"
 
 # The footer menu will appear as an inline-list at the bottom left of the footer found at the bottom of the screen
 [[menu.footer]]
-    name                = "Privacy Policy"
+    name                = "Site Terms"
     weight              = 1
-    url                 = "/privacy-policy/"
+    url                 = "/site-terms/"
 
 [params]
     keywords            = ["default", "keywords", "if", "no", "front", "matter"]
@@ -41,11 +41,12 @@ theme                   = "hugo-phlat-theme"
 
 # Social media icons and links that appear in the footer
 [social]
-    twitter             = "https://www.twitter.com/NAME_HERE"
-    googleplus          = "https://plus.google.com/NAME_HERE"
-    linkedin            = "https://www.linkedin.com/in/NAME_HERE"
-    youtube             = "https://www.youtube.com/users/NAME_HERE"
-    paypal              = "https://paypal.me/NAME_HERE"
+    twitter             = "https://www.twitter.com/_vrao_"
+    linkedin            = "https://www.linkedin.com/in/vivekr1"
+    github              = "https://github.com/vivekrrao"
+    googleplus          = ""
+    youtube             = ""
+    paypal              = ""
     instagram           = ""
     reddit              = ""
     email               = ""
