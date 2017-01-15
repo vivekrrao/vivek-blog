@@ -1,2 +1,15 @@
 hugo server -wD --destination ../vivekrrao.com
 aws s3 cp vivekrrao.com s3://vivekrrao.com/ --recursive
+
+Delete and copy - how to do this efficiently
+
+aws s3 cp vivekrrao.com s3://vivekrrao.com/ --recursive
+aws s3 cp vivekrrao.com s3://vivekrrao.com/ --recursive
+git add .
+git commit -m "Turn off draft for sample posts"
+ls -l
+aws s3 rm s3://vivekrrao.com --recursive
+aws s3 ls s3://vivekrrao.com
+git add .
+git commit -m "Turn off draft for sample posts"
+aws s3 cp vivekrrao.com s3://vivekrrao.com/ --recursive

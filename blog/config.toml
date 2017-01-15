@@ -1,4 +1,4 @@
-baseurl                 = "https://www.vivekrrao.com/"
+baseurl                 = "http://vivekrrao.com/"
 languageCode            = "en-us"
 title                   = "Vivek's Blog"
 theme                   = "hugo-phlat-theme"

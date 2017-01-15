@@ -2,29 +2,29 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Page-rsses on Vivek&#39;s Blog</title>
-    <link>https://www.vivekrrao.com/page/index.xml</link>
+    <link>http://vivekrrao.com/page/index.xml</link>
     <description>Recent content in Page-rsses on Vivek&#39;s Blog</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 13 Jan 2017 18:18:41 -0700</lastBuildDate>
-    <atom:link href="https://www.vivekrrao.com/page/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://vivekrrao.com/page/index.xml" rel="self" type="application/rss+xml" />
     
     <item>
       <title>About</title>
-      <link>https://www.vivekrrao.com/about/</link>
+      <link>http://vivekrrao.com/about/</link>
       <pubDate>Fri, 13 Jan 2017 18:18:41 -0700</pubDate>
       
-      <guid>https://www.vivekrrao.com/about/</guid>
+      <guid>http://vivekrrao.com/about/</guid>
       <description>&lt;p&gt;About me page&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Site Terms</title>
-      <link>https://www.vivekrrao.com/site-terms/</link>
+      <link>http://vivekrrao.com/site-terms/</link>
       <pubDate>Fri, 13 Jan 2017 18:18:41 -0700</pubDate>
       
-      <guid>https://www.vivekrrao.com/site-terms/</guid>
+      <guid>http://vivekrrao.com/site-terms/</guid>
       <description>&lt;p&gt;Site terms page&lt;/p&gt;
 </description>
     </item>
