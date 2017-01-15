@@ -8,7 +8,7 @@ categories = [
   "cloud",
   "aws",
 ]
-draft = true
+draft = false
 date = "2017-01-13T16:52:37-05:00"
 title = "Standing on the shoulders of giants"
 description = "description"

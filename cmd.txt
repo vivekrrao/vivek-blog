@@ -1,0 +1,2 @@
+hugo server -wD --destination ../vivekrrao.com
+aws s3 cp vivekrrao.com s3://vivekrrao.com/ --recursive
