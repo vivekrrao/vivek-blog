@@ -8,8 +8,8 @@
     
     
     
-    <meta name="description" content="description" />
-    <meta name="keywords" content='tag1,tag2' />
+    <meta name="description" content="My first post about standing up this blog" />
+    <meta name="keywords" content='hugo,aws,s3' />
     
         <meta name="author" content="Vivek Rao" />
     
@@ -92,14 +92,35 @@
     </ul>
 
 
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+        <p><em>“For everything, there is a first time.” - Spock</em></p>
 
+<p>I have thought about creating my own website several times over the last 13 years but never really got around to doing it. Back in 2001 or 2002 during engineering college, a bunch of my friends and I created and hosted a website on <a href="https://en.wikipedia.org/wiki/Yahoo!_GeoCities" title="GeoCities">GeoCities</a> sharing our source code and project details for the greater good. Once we landed jobs out of college, we gradually forgot about it. I remember back in 2009, a few years after I had moved to the United States, reading that Yahoo was shutting GeoCities down and thinking what a wasted opportunity it was for Yahoo.</p>
+
+<p></p>
+
+<p>A large part of my reluctance to building my own website was that I would have to figure out a way to build it from scratch, host it, maintain it and figure out a way to track visitors, basic analytics etc. While that would have been an interesting challenge, it would have consumed a good chunk of my time out of work - time I wasn&rsquo;t prepared to spend after gruelling 14 hour work days.</p>
+
+<p>Fast forward and it is early 2017. I decide over the MLK day long weekend that I want to finally build my own website. My time is still limited, albeit not with 14 hour workdays but with time I <strong>want</strong> to spend with my kids and my wife. But this time, things are different. Paraphrasing Isaac Newton, this time I am standing on the shoulder of giants and can see further than ever before. I figure that I can probably pull this off over a long weekend, working a couple of nights after the kids are in bed.</p>
+
+<p>I figure that I would need a domain name, a DNS provider - both possible using <a href="https://aws.amazon.com/route53/" title="Route 53">Route 53</a>. I remember from <a href="https://aws.amazon.com/certification/certified-solutions-architect-associate/" title="AWSSA">AWS Solutions Architect</a> course that I can host static websites on the cheap using <a href="https://aws.amazon.com/s3/" title="S3">Amazon S3</a>. I would also need a static website engine, either <a href="https://jekyllrb.com/" title="Jekyll">Jekyll</a> or <a href="https://gohugo.io/" title="Hugo">Hugo</a> that can build static pages from simple text or <a href="https://en.wikipedia.org/wiki/Markdown" title="Markdown">markdown</a> files using predefined themes. That&rsquo;s it and I would be good to go as far as getting the site up and running.</p>
+
+<p>It took me a few minutes and a credit card to buy my domain name - vivekrrao.com. I spent a little over 2 hours in deciding which static website engine I wanted to use (went with Hugo because of simpler installation and faster build speed), the theme I liked the best (<a href="http://themes.gohugo.io/hugo-phlat-theme/" title="Phlat">Phlat</a>) and getting it all setup on my laptop.</p>
+
+<p>I followed the step by step documentation <a href="http://docs.aws.amazon.com/gettingstarted/latest/swh/website-hosting-intro.html" title="Static Website Hosting">here</a> on setting up my S3 buckets, bucket policies to enable website hosting. I was able to setup my Route 53 hosted zones and point the record set to my S3 website end points for both http and www. All in about an hour and a half.</p>
+
+<p>Excluding the time it took for me to write this post, I was mostly up and running in under 5 hours, spread across a few days. I most likely will pay a dollar or two if not pennies to host this site every month. I wonder if this would have been possible 10 years ago.</p>
+
+<p>Of course, there is a lot of opportunity to do more. For one, I want to fully automate the build and deploy process, tests, spell check and all. I want to implement SSL and a global CDN such as <a href="https://aws.amazon.com/cloudfront/" title="CloudFront">CloudFront</a> so I can deliver content faster while saving more money. I would like to add basic analytics to determine hits, visitors etc but all that for another day.</p>
+
+<p>And this is just the tip of the iceberg. To me, the lesson is that the cloud lowers the barrier for entry for an individual like me who doesn&rsquo;t want to spend a lot of time or money building the infrastructure necessary to create a personal blog. I can spend more time thinking of what to blog rather than building the blog itself. That&rsquo;s tremendous ROI which would not have been possible just 10 years ago.</p>
         
     <ul class="list-inline tags" style="margin-top: 15px; margin-left: 0px">
         
-            <li style=""><a href="http://vivekrrao.com/tags/tag1">tag1</a></li>
+            <li style=""><a href="http://vivekrrao.com/tags/hugo">hugo</a></li>
         
-            <li style=""><a href="http://vivekrrao.com/tags/tag2">tag2</a></li>
+            <li style=""><a href="http://vivekrrao.com/tags/aws">aws</a></li>
+        
+            <li style=""><a href="http://vivekrrao.com/tags/s3">s3</a></li>
         
     </ul>
 
@@ -151,8 +172,6 @@
     <div class="col-md-11 col-md-offset-1 card">
         <h5>Recent Posts</h5>
         <ul class="list-unstyled posts-recent">
-            
-                <li><a href="http://vivekrrao.com/2017/01/my-second-post/">my second post</a></li>
             
                 <li><a href="http://vivekrrao.com/2017/01/standing-on-the-shoulders-of-giants/">Standing on the shoulders of giants</a></li>
             

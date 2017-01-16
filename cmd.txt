@@ -13,3 +13,5 @@ aws s3 ls s3://vivekrrao.com
 git add .
 git commit -m "Turn off draft for sample posts"
 aws s3 cp vivekrrao.com s3://vivekrrao.com/ --recursive
+
+aws s3 sync vivekrrao.com s3://vivekrrao.com --delete --dryrun
